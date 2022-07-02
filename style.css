@@ -2,7 +2,7 @@ html, body {
     margin: 0;
     padding: 0;
     font-family: arial;
-    background-color: rgba(127, 185, 224, 0.986);
+    background-color: rgba(127, 209, 224, 0.986);
 }
 
 * {
@@ -27,9 +27,12 @@ nav {
 }
 
 .nav-center a {
+    font-size: 15px;
     text-decoration: none;
     color: orange;
-    padding: 10px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
 }
 
 .nav-center a:hover, a:active {
@@ -47,33 +50,67 @@ nav {
     background-color: white;
 }
 
+
+
+
+
+
+
+
 header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    width: 900px;
+    height: 600px;
+    padding: 0;
+    margin: 0 0 20px 0;
 }
 
-header h1{
-    font-size: 40px;
-    color: orange;
-}
-
-.apresentation {
+.display{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 20px;
+    width: 100%;
+    height: 70%;
 }
 
-.img-logo img{
-    width: 200px;
-    height: auto;
+.margin-side {
+    margin:0 20px 0 20px;
 }
 
-.conteudo {
-    font-size: 14px;
+.titlef {
+    font-size: 40px;
     color: rgb(18, 73, 155);
 }
+
+.subtitle-initial {
+    font-size: 25px;
+    color: rgb(230, 130, 0);
+}
+
+.subtitle2-initial {
+    font-size: 20px;
+    color: orange;
+}
+
+.subtitle-background {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    height: 30%;
+    background-color: rgb(18, 73, 155);
+    border-radius:20px 20px 0 0;
+    color: white;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
 
 .container1-pag {
     display: flex;
@@ -90,7 +127,7 @@ header h1{
     color: orange;
 }
 
-.subtitle-background {
+.subtitle1-background {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -107,6 +144,14 @@ header h1{
     padding: 0;
     margin-right: 20px;
     font-size: 18px;
+}
+
+.blocktext ul {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
 }
 
 .container2-pag {
