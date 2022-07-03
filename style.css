@@ -16,13 +16,13 @@ nav {
     left: 0;
     background-color: rgb(33, 82, 156);
     z-index: 5;
-    box-shadow: 0 0 3px 0 black;
 }
 
 .nav-center {
     display: flex;
     justify-content: space-around;
-    width: 900px;
+    width: 100%;
+    max-width: 900px;
     margin: auto;
 }
 
@@ -33,6 +33,8 @@ nav {
     padding: 20px;
     display: flex;
     align-items: center;
+    transition: all 250ms linear 0s;
+    text-transform: uppercase;
 }
 
 .nav-center a:hover, a:active {
@@ -44,7 +46,8 @@ nav {
 
 .container {
     position: relative;
-    width: 900px;
+    width: 100%;
+    max-width: 900px;
     margin: auto;
     margin-top: 30px;
     background-color: white;
@@ -58,7 +61,8 @@ nav {
 
 
 header {
-    width: 900px;
+    width: 100%;
+    max-width: 900px;
     height: 600px;
     padding: 0;
     margin: 0 0 20px 0;
@@ -142,7 +146,7 @@ header {
     width: 400px;
     color: rgb(18, 73, 155);
     padding: 0;
-    margin-right: 20px;
+    margin:0 20px 0 20px;
     font-size: 18px;
 }
 
