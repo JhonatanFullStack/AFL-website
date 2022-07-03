@@ -43,7 +43,7 @@ nav .container img {
 nav .container ul {
     display: flex;
   }
-  
+
 nav ul li {
     list-style: none;
   }
@@ -81,6 +81,15 @@ nav ul li a:hover {
     margin: auto;
   }
 
+.display-flex {
+    display: flex;
+    align-items: center;
+}
+
+.display-flex-no-align {
+    display: flex;
+    justify-content: space-between;
+}
 
 .display-flex-between{
     display: flex;
@@ -98,17 +107,35 @@ nav ul li a:hover {
     max-width: 490px;
 }
 
+.subcontainer-logo {
+    width: 200px;
+}
+
+.subcontainer-img {
+    width: 300px;
+}
+
 .title {
     font-size: 4rem;
     color: rgb(189, 113, 0);
 }
 
 .subtitle2 {
-    font-size: 3.2rem;
+    font-size: 2.8rem;
     color: orange;
 }
 
 .subtitle3 {
+    font-size: 2.2rem;
+    color: rgb(18, 166, 255);
+}
+
+.subtitle3-1 {
+    font-size: 2.8rem;
+    color: rgb(18, 166, 255);
+}
+
+.subtitle4 {
     font-size: 1.6rem;
     color: white;
 }
@@ -132,19 +159,29 @@ nav ul li a:hover {
 }
 
 h2 {
+    font-size: 2.8rem;
     line-height: 4.6rem;
 }
 
 h3 {
-    font-size:1.6;
+    font-size:2.4rem;
     line-height: 3.8rem;
+    padding: 10px 0 10px 0;
 }
 
-p, li, strong{
+p, strong{
     font-size: 1.8rem;
     line-height: 2.8rem;
+    padding: 10px 0 10px 0;
+}
+
+li{
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    padding: 10px 5px 10px 5px;
 }
 
 cite {
     font-size: 1.4rem;
+    padding: 10px 0 10px 0;
 }

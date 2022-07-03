@@ -16,6 +16,13 @@
         order: -1;
     }
 
+    .display-flex-no-align {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+
 }
 
 @media (max-width: 540px) {
@@ -99,6 +106,13 @@
         justify-content: space-between;
         align-items: center;
     }
+
+    .display-flex-no-align {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
 
     .display-flex-end {
         display: flex;
