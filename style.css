@@ -23,7 +23,7 @@ nav {
     position: fixed;
     width: 100%;
     top: 0;
-    background-color: rgb(18, 166, 255);
+    background-color: rgb(0, 150, 220);
 }
 
 nav .container {
@@ -127,12 +127,12 @@ nav ul li a:hover {
 
 .subtitle3 {
     font-size: 2.2rem;
-    color: rgb(18, 166, 255);
+    color: rgb(0, 150, 220);
 }
 
 .subtitle3-1 {
     font-size: 2.8rem;
-    color: rgb(18, 166, 255);
+    color: rgb(0, 150, 220);
 }
 
 .subtitle4 {
@@ -141,7 +141,7 @@ nav ul li a:hover {
 }
 
 .backgroundblue1{
-    background-color: rgb(18, 166, 255);
+    background-color: rgb(0, 150, 220);
     border-radius: 10px 10px 0 0;
     height: 10rem;
     display: flex;
@@ -150,7 +150,7 @@ nav ul li a:hover {
 }
 
 .backgroundblue2{
-    background-color: rgb(18, 166, 255);
+    background-color: rgb(0, 150, 220);
     border-radius: 0 0 10px 10px;
     height: 10rem;
     display: flex;
