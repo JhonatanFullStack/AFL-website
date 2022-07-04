@@ -18,6 +18,9 @@ html {
     /* a cada 1rem será considera 10px */
     font-size: 62.5%;
 }
+
+
+/*Barra de menu*/
   
 nav {
     position: fixed;
@@ -26,54 +29,62 @@ nav {
     background-color: rgb(0, 150, 220);
 }
 
-nav .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
-    width: 90%;
-    max-width: 980px;
-    margin: auto;
+.topnav {
+    overflow: hidden;
+    background-color: rgb(0, 150, 220);
 }
-
-nav .container img {
-    width: 50px;
-}
-
-nav .container ul {
-    display: flex;
-  }
-
-nav ul li {
-    list-style: none;
-  }
   
-nav ul li a {
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
-    color: orange;
-    text-transform: uppercase;
-    font-size: 1.4rem; 
-    padding: 2.4rem;
+    font-size: 1.7rem;
     transition: all 250ms linear 0s;
-  }
+    text-transform: uppercase;
+}
   
-nav ul li a:hover {
-    background: rgba(255,255,255, 0.15);
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+  
+.topnav a.active {
+    background-color: #04AA6D;
     color: white;
-  }
+}
+  
+  .topnav .icon {
+    display: none;
+}
 
+
+
+
+
+
+  
+
+/*Separador de cada section*/
 .margin-top-bottom {
     margin: 20px 0 20px 0;
-  }
+}
 
+
+/*Separa o main do nav*/
   .margin-between-nav {
     margin: 120px 0 20px 0
-  }
+}
 
 
+/*Margem lateral para os conteudos*/
 .margin-side {
     margin: 0 20px 0 20px;
 }  
+
+/*Define a largura do container dos conteudos*/
 
 .container {
     width: 90%;
@@ -81,21 +92,25 @@ nav ul li a:hover {
     margin: auto;
   }
 
+/*Declara o 'display: flex;' com alinhamento central*/
 .display-flex {
     display: flex;
     align-items: center;
 }
 
+/*Declara o 'display: flex;' sem alinhamento central*/
 .display-flex-no-align {
     display: flex;
     justify-content: space-between;
 }
 
+/*Declara 'display: flex;' com space-between*/
 .display-flex-between{
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
+
 
  .display-flex-end {
     display: flex;
@@ -130,10 +145,6 @@ nav ul li a:hover {
     color: rgb(0, 150, 220);
 }
 
-.subtitle3-1 {
-    font-size: 2.8rem;
-    color: rgb(0, 150, 220);
-}
 
 .subtitle4 {
     font-size: 1.6rem;

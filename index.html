@@ -7,28 +7,17 @@
     <link rel="shortcut icon" href="img/Screenshot_2.jpg" type="image/x-con">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsivo.css" media="screen and (max-width: 768px)">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Associação Antônio Francisco Lisboa</title>
 </head>
 <body>
 <nav>  
-    <div class="container">
-            <img src="img/Screenshot_2.jpg" alt="logo">
-        <div class="menu-section">
-            <div class="menu-toggle">
-                  <div class="one"></div>
-                  <div class="two"></div>
-                  <div class="three"></div>
-            </div>
-        <ul>
-            <li><a href="#introdução">Introdução</a></li>
-            <li><a href="#deficiências">Deficiência</a></li>
-            <li><a href="#sobre-a-ong">Sobre a Ong</a></li>
-            <li><a href="#estrutura-organizacional">Estrutura Organizacional</a></li>
-            <li><a href="#metodologias">Metodologias</a></li>
-            <li><a href="#juridico">Jurídico</a></li>
-        </ul>
-    </div>
+    <div class="topnav" id="myTopnav">
+        <a href="#introdução" class="active">Introdução</a>
+        <a href="#deficiencias">Deficiências Abordadas</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
     </div>
 </nav>
     <div class="margin-between-nav">
@@ -48,7 +37,7 @@
     <div class="margin-top-bottom">
         <section class="container">
             <div class="backgroundblue2">
-                <h2 class="margin-side subtitle2">Introdução</h2>
+                <h2 id="introdução" class="margin-side subtitle2">Introdução</h2>
             </div>
             <div class="margin-side">
                 <p>Este trabalho de conclusão de curso aborda as
@@ -152,7 +141,7 @@
     <div class="margin-top-bottom">
         <section class="container">
             <div class="backgroundblue2">
-                <h2 class="margin-side subtitle2">Deficiências Abordadas</h2>
+                <h2 id="deficiencias" class="margin-side subtitle2">Deficiências Abordadas</h2>
             </div>
             <div class="margin-side">
                 <h3>Deficiência Auditiva</h3>
@@ -256,7 +245,7 @@
             <div class="margin-side">
                 <h3>Adaptações para portadores de Deficiência Física no trabalho:</h3>
             </div>                
-            <ul class="display-flex-no-align margin-side" style="list-style-type: none;">
+            <ul class="margin-side" style="list-style-type: none;">
                 <li>
                     <h3>As áreas de
                     circulação:</h3>
@@ -285,23 +274,17 @@
                 <li>
                     <h3>Verificar o nível de acessibilidade
                     em todos setores/áreas da empresa:</h3>
-                    <div class="display-flex-between">
-                        <div class="subcontainer">
-                            <p>refeitório, grêmios
-                            recreativos, salas
-                            de reuniões, dentre
-                            outros.</p>
-                        </div>
-                        <div class="subcontainer">
-                            <p>Maçanetas do
-                            tipo alavanca;
-                            barras de apoio
-                            para usos em
-                            sanitários;
-                            torneiras de
-                            pressão;</p>
-                        </div>
-                    </div>
+                    <p>refeitório, grêmios
+                    recreativos, salas
+                    de reuniões, dentre
+                    outros.</p>
+                    <p>Maçanetas do
+                    tipo alavanca;
+                    barras de apoio
+                    para usos em
+                    sanitários;
+                    torneiras de
+                    pressão;</p>
                 </li>
             </ul>
         </section>
